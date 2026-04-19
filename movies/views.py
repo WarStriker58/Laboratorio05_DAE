@@ -1,11 +1,10 @@
-from rest_framework import generics
+from rest_framework import viewsets
 from .models import Movie
 from .serializers import MovieSerializer
 
-class MovieListCreateView(generics.ListCreateAPIView):
-    queryset = Movie.objects.all()
-    serializer_class = MovieSerializer
-
-class MovieDetailView(generics.RetrieveUpdateDestroyAPIView):
+class MovieViewSet(viewsets.ModelViewSet):
+    """
+    Un ViewSet que proporciona las operaciones CRUD completas para Movie.
+    """
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
