@@ -7,12 +7,12 @@
 
 ## Sebastian Andre Salas Córdova
 
-## 📸 Capturas Genres
+## 📸 Capturas
 
 ### GET: http://127.0.0.1:8000/api/genres/
-![Base de Datos 1](../imgs/lab6/get_genres_salas.png)
+![GET](../imgs/lab6/get_genres_salas.png)
 
-![GET](../imgs/lab6/db1_genres_salas.png)
+![Base de Datos 1](../imgs/lab6/db1_genres_salas.png)
 
 ### POST: http://127.0.0.1:8000/api/genres/
 ![POST](../imgs/lab6/post_genres_salas.png)
@@ -33,12 +33,12 @@
 
 ## Yefry Ivan Calderon Gonzales
 
-## 📸 Capturas Genres
+## 📸 Capturas
 
 ### GET: http://127.0.0.1:8000/api/genres/
-![Base de Datos 1](../imgs/lab6/get_genres_calderon.png)
+![GET](../imgs/lab6/get_genres_calderon.png)
 
-![GET](../imgs/lab6/db1_genres_calderon.png)
+![Base de Datos 1](../imgs/lab6/db1_genres_calderon.png)
 
 ### POST: http://127.0.0.1:8000/api/genres/
 ![POST](../imgs/lab6/post_genres_calderon.png)
@@ -54,3 +54,24 @@
 ![DELETE](../imgs/lab6/delete_genres_calderon.png)
 
 ![Base de Datos 4](../imgs/lab6/db4_genres_calderon.png)
+
+---
+
+## Gean Pierre Ayala Andia
+
+## 📸 Capturas
+
+### GET: http://127.0.0.1:8000/api/genres/
+![GET](../imgs/lab6/get_ayala.png)
+
+### POST: http://127.0.0.1:8000/api/genres/
+![POST](../imgs/lab6/post_ayala.png)
+
+### PUT: http://127.0.0.1:8000/api/genres/1/
+![PUT](../imgs/lab6/put_ayala.png)
+
+### DELETE: http://127.0.0.1:8000/api/movies/1/
+![DELETE](../imgs/lab6/delete_ayala.png)
+
+### Despues del uso de los métodos HTTP:
+![DESPUES](../imgs/lab6/despues_ayala.png)
